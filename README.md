@@ -53,13 +53,11 @@ Target item (e.g. rotor, plastic, motor, computer) or 'quit': rotor
 
 ### 1. Download the latest data file:
 
-```
 https://raw.githubusercontent.com/KirkMcDonald/satisfactory-calculator/master/data/data.json
-```
 
 Right-click → Save As → name it `data.json` in the same folder as the script.
 
-### 2. Save the calculator code as `bom_calculator.py` (or whatever name you prefer).
+### 2. Save the calculator code as `bom_calc.py`.
 
 ### 3. Run:
 
@@ -71,16 +69,16 @@ python bom_calc.py
 
 Common Item Key Names
 
-Item,Key name
-Rotor,rotor
-Plastic,plastic
-Modular Frame,modular-frame
-Heavy Modular Frame,heavy-modular-frame
-Computer,computer
-Supercomputer,supercomputer
-Nuclear Pasta,nuclear-pasta
-Thermal Propulsion Rocket,thermal-propulsion-rocket
-Singularity Cell,singularity-cell
+- Item,Key name
+- Rotor,rotor
+- Plastic,plastic
+- Modular Frame,modular-frame
+- Heavy Modular Frame,heavy-modular-frame
+- Computer,computer
+- Supercomputer,supercomputer
+- Nuclear Pasta,nuclear-pasta
+- Thermal Propulsion Rocket,thermal-propulsion-rocket
+- Singularity Cell,singularity-cell
 
 (You can open `data.json` and search for "name": "Item" to find exact key_name.)
 
